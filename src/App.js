@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -7,7 +6,6 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
@@ -15,7 +13,7 @@ class App extends Component {
         </p>
         <img
         style={{width: 50, height: 50}}
-        src={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/2000px-Heart_coraz%C3%B3n.svg.png'} alt="boohoo" className="img-responsive"/>
+        src={'https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/542487_397868403614289_100432499_n.jpg?oh=03c9a75b5d5aeebeed641914da7973fb&oe=5865B7D5'} alt="boohoo" className="img-responsive"/>
         <div>Ola & Bartek </div>
       </div>
     );
