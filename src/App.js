@@ -13,6 +13,10 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <img
+        style={{width: 50, height: 50}}
+        src={'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/2000px-Heart_coraz%C3%B3n.svg.png'} alt="boohoo" className="img-responsive"/>
+        <div>Ola & Bartek </div>
       </div>
     );
   }
