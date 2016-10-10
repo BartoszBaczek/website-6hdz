@@ -12,9 +12,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <img
-        style={{width: 50, height: 50}}
+        style={{width: 100, height: 100}}
         src={'https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/542487_397868403614289_100432499_n.jpg?oh=03c9a75b5d5aeebeed641914da7973fb&oe=5865B7D5'} alt="boohoo" className="img-responsive"/>
-        <div>Ola & Bartek </div>
       </div>
     );
   }
