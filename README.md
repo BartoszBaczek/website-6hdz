@@ -4,6 +4,10 @@
 
 Paralax scrolling website for 6 Harcerska Druzyna Zeglarska using react.
 
+## Live demo
+
+https://guarded-wildwood-47445.heroku.com
+
 ## To Use
 
 ```bash
