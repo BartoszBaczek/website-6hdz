@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap';
+import './NavigationBar.css';
 
 class NavigationBar extends Component {
     render() {
@@ -7,7 +8,7 @@ class NavigationBar extends Component {
              <Navbar inverse>
                  <Navbar.Header>
                      <Navbar.Brand>
-                        <a href="#">6HDŻ</a>
+                        <img className="colors-inverted" alt="Brand" src="./../favicon.ico"></img>
                      </Navbar.Brand>
                      <Navbar.Toggle />
                 </Navbar.Header>
