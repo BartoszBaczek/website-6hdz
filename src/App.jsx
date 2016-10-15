@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import NavigationBar from './NavigationBar.jsx';
+import Content from './Content.jsx';
 
 
 
@@ -9,7 +10,7 @@ class App extends Component {
     return (
         <div>
             <NavigationBar />
-            <div>Website content</div>
+            <Content />
         </div>
     );
   }
