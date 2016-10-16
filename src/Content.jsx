@@ -7,22 +7,25 @@ class Content extends Component {
         return(
             <div>
                 <Element name="section-1" className="element background-red">
-                    Ugabuga !
+                    Starting page
                 </Element>
                 <Element name="section-2" className="element background-green">
-                    Abababa !
+                    Aktualności
                 </Element>
                 <Element name="section-3" className="element background-pink">
-                    Bulululu !
+                    O nas
                 </Element>
                 <Element name="section-4" className="element background-blue">
-                    Hejho !
+                    Media
                 </Element>
                 <Element name="section-5" className="element background-yellow">
-                    Plepleple !
+                    Lokalizacja
                 </Element>
                 <Element name="section-6" className="element background-gray">
-                    Plepleple !
+                    Nasi partnerzy
+                </Element>
+                <Element name="section-7" className="element background-gray">
+                    Kontakt
                 </Element>
             </div>
         );

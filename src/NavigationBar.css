@@ -1,5 +1,10 @@
-.colors-inverted {
+.home-logo {
   filter: invert(100%);
+  width:30%;
+  margin-top: -12px;
+}
+.home-logo:hover {
+  cursor: pointer;
 }
 
 /* removes default bootstrap navbar margin */
