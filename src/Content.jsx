@@ -24,7 +24,7 @@ class Content extends Component {
                 <Element name="section-6" className="element background-gray">
                     Nasi partnerzy
                 </Element>
-                <Element name="section-7" className="element background-gray">
+                <Element name="section-7" className="element background-aqua">
                     Kontakt
                 </Element>
             </div>
