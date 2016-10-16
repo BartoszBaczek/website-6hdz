@@ -6,17 +6,11 @@ import { Link, Events, scrollSpy } from 'react-scroll';
 class NavigationBar extends Component {
     componentDidMount() {
 
-        Events.scrollEvent.register('begin', () => {
-            console.log('scrollStarted', arguments);
-        });
+        Events.scrollEvent.register('begin');
 
-        Events.scrollEvent.register('end', () => {
-            console.log('scrollFinished', arguments);
-        });
+        Events.scrollEvent.register('end');
 
         scrollSpy.update();
-
-        console.log(scrollSpy);
     }
 
     componentWillUnmount() {
