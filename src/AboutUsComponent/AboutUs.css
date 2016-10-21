@@ -1,0 +1,9 @@
+.black {
+    background-color: black;
+    height: inherit;
+    color: white;
+}
+
+.bottom-margin {
+    margin-bottom: 30px;
+}

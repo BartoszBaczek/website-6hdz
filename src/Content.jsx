@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
+import AboutUs from './AboutUsComponent/AboutUs.jsx';
 import './Content.css';
 
 class Content extends Component {
@@ -12,8 +13,9 @@ class Content extends Component {
                 <Element name="section-2" className="element background-green">
                     Aktualności
                 </Element>
-                <Element name="section-3" className="element background-pink">
-                    O nas
+                <Element name="section-3" className="element about-us-page">
+                    <h1 className="about-us-header">Nasz kadra</h1>
+                    <AboutUs />
                 </Element>
                 <Element name="section-4" className="element background-blue">
                     Media
