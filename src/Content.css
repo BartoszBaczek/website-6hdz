@@ -4,8 +4,8 @@
 }
 
 .about-us-page {
-    height:1150px;
     overflow: hidden;
+    background-color: #111;
 }
 .about-us-header {
     margin-top: 60px;
@@ -22,9 +22,6 @@
 }
 .background-yellow {
     background-color: yellow;
-}
-.about-us-page {
-    background-color: #111;
 }
 .background-gray {
     background-color: gray;

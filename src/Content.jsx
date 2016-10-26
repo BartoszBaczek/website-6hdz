@@ -13,7 +13,7 @@ class Content extends Component {
                 <Element name="section-2" className="element background-green">
                     Aktualności
                 </Element>
-                <Element name="section-3" className="element about-us-page">
+                <Element name="section-3" className="about-us-page">
                     <h1 className="about-us-header">Nasz kadra</h1>
                     <AboutUs />
                 </Element>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Portrait.css';
-import { Image, Row, Col } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 class Portrait extends Component {
     propTypes: {
@@ -14,19 +14,14 @@ class Portrait extends Component {
     render() {
         return (
             <div>
-                <Row>
-                    <Col xs={12} md={12}>
-                        <div>
-                            <Image className="portrait-img img-center" src={process.env.PUBLIC_URL + this.props.photo} circle responsive />
-                        </div>
-                        <div className="center-vertically white-text">
-                            <div><b>{this.props.scoutRank + ' ' + this.props.nameSurname}</b></div>
-                            <div>{this.props.yachtRank}</div>
-                            <div>{this.props.role}</div>
-                        </div>
-
-                    </Col>
-                </Row>
+                <div>
+                    <Image className="portrait-img img-center" src={process.env.PUBLIC_URL + this.props.photo} responsive circle />
+                </div>
+                <p className="center-vertically white-text">
+                    <div><h3>{this.props.scoutRank + ' ' + this.props.nameSurname}</h3></div>
+                    <div>{this.props.yachtRank}</div>
+                    <div>{this.props.role}</div>
+                </p>
             </div>
         );
     }
