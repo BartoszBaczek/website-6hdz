@@ -75,5 +75,12 @@
         "nameSurname": "Dominika Osuch",
         "role": "Załogowa",
         "photo": "./../../assets/img/dOsuch.jpg"
+    },
+    {
+        "scoutRank":"??",
+        "yachtRank":"??",
+        "nameSurname": "??",
+        "role": "??",
+        "photo": "./../../assets/img/nieznany.jpg"
     }
 ]}

@@ -13,15 +13,12 @@ class Portrait extends Component {
 
     render() {
         return (
-            <div>
-                <div>
-                    <Image className="portrait-img img-center" src={process.env.PUBLIC_URL + this.props.photo} responsive circle />
+            <div className="hovereffect">
+                <Image className="center" src={process.env.PUBLIC_URL + this.props.photo}/>
+                <div className="overlay">
+                    <h2>hover effect</h2>
+                    <a class="info" href="#">link here</a>
                 </div>
-                <p className="center-vertically white-text">
-                    <div><h3>{this.props.scoutRank + ' ' + this.props.nameSurname}</h3></div>
-                    <div>{this.props.yachtRank}</div>
-                    <div>{this.props.role}</div>
-                </p>
             </div>
         );
     }
