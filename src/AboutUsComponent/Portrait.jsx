@@ -14,11 +14,11 @@ class Portrait extends Component {
     render() {
         return (
             <div className="hovereffect">
-                <Image className="center" src={process.env.PUBLIC_URL + this.props.photo}/>
+                <Image src={process.env.PUBLIC_URL + this.props.photo} responsive/>
                 <div className="overlay">
                     <h2>{this.props.scoutRank} {this.props.nameSurname}</h2>
-                    <p class="info">{this.props.yachtRank}</p>
-                    <p class="info">{this.props.role}</p>
+                    <p className="info">{this.props.yachtRank}</p>
+                    <p className="info">{this.props.role}</p>
                 </div>
             </div>
         );
