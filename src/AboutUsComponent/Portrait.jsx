@@ -16,8 +16,9 @@ class Portrait extends Component {
             <div className="hovereffect">
                 <Image className="center" src={process.env.PUBLIC_URL + this.props.photo}/>
                 <div className="overlay">
-                    <h2>hover effect</h2>
-                    <a class="info" href="#">link here</a>
+                    <h2>{this.props.scoutRank} {this.props.nameSurname}</h2>
+                    <p class="info">{this.props.yachtRank}</p>
+                    <p class="info">{this.props.role}</p>
                 </div>
             </div>
         );
