@@ -5,11 +5,7 @@ import { Col, Row } from 'react-bootstrap';
 var aboutUsData = require("../../data/people.json");
 
 class AboutUs extends Component {
-    componentWillMount() {
-        console.log(aboutUsData.people);
-    }
     render() {
-
         let portraits = [];
         for (let i = 2; i <= aboutUsData.people.length - 1; i+=3) {
             console.log(i);

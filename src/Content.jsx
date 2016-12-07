@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
 import AboutUs from './AboutUsComponent/AboutUs.jsx';
+import Contact from './ContactComponent/Contact.jsx';
 import './Content.css';
 
 class Content extends Component {
@@ -26,8 +27,9 @@ class Content extends Component {
                 <Element name="section-6" className="element background-gray">
                     Nasi partnerzy
                 </Element>
-                <Element name="section-7" className="element background-aqua">
-                    Kontakt
+                <Element name="section-3" className="contact-page">
+                    <h1 className="contact-header">Kontakt</h1>
+                    <Contact />
                 </Element>
             </div>
         );

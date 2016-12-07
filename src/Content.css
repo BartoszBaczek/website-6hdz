@@ -13,6 +13,17 @@
     overflow: hidden;
 }
 
+.contact-header {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.contact-page {
+    overflow: hidden;
+}
+
 .background-red {
     background-color: red;
 }
