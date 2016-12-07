@@ -7,10 +7,10 @@ var aboutUsData = require("../../data/people.json");
 class AboutUs extends Component {
     render() {
         let portraits = [];
-        
+
         for (let i = 2; i <= aboutUsData.people.length - 1; i+=3) {
             portraits.push(
-                <Row>
+                <Row key={i}>
                     <Col md={11} mdOffset={1}>
                         <Col md={3} mdOffset={1} xs={4} className="vertical-offset">
                             <Portrait
