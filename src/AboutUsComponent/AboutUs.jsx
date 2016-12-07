@@ -7,8 +7,8 @@ var aboutUsData = require("../../data/people.json");
 class AboutUs extends Component {
     render() {
         let portraits = [];
+        
         for (let i = 2; i <= aboutUsData.people.length - 1; i+=3) {
-            console.log(i);
             portraits.push(
                 <Row>
                     <Col md={11} mdOffset={1}>
