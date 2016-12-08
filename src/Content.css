@@ -22,6 +22,7 @@
 
 .contact-page {
     overflow: hidden;
+    margin-bottom: 100px;    /* to be removed */
 }
 
 .background-red {
@@ -34,7 +35,7 @@
     background-color: yellow;
 }
 .background-gray {
-    background-color: gray;
+    background-color: lightgray;
 }
 .background-green {
     background-color: green;

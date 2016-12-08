@@ -24,10 +24,10 @@ class Content extends Component {
                 <Element name="section-5" className="element background-yellow">
                     Lokalizacja
                 </Element>
-                <Element name="section-6" className="element background-gray">
+                <Element name="section-6" className="element">
                     Nasi partnerzy
                 </Element>
-                <Element name="section-7" className="contact-page">
+                <Element name="section-7" className="contact-page background-gray">
                     <h1 className="contact-header">Kontakt</h1>
                     <Contact />
                 </Element>
