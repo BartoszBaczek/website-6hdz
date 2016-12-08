@@ -11,7 +11,8 @@ class Contact extends Component {
                 <Col className="map">
                     <GoogleMap
                         defaultCenter={{lat: 50.1259985, lng: 18.50548}}
-                        defaultZoom={16}>
+                        defaultZoom={16}
+                        bootstrapURLKeys={{key: "AIzaSyCxCOKEipbYo0RgQtVaPD_IkTuzfG7dovI"}}>
                     </GoogleMap>
                 </Col>
                 <Col md={8} mdOffset={4}>
