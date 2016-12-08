@@ -9,8 +9,7 @@ class Message extends Component {
 
     render() {
         return (
-            <div className="margin-top-2">
-                <Row>
+                <Row className="margin-top-2">
                     <Col md={6}>
                         <FormControl type="text" placeholder="imię"/>
                     </Col>
@@ -23,10 +22,7 @@ class Message extends Component {
                     <Col md={12} className="margin-top-1">
                         <Button block onClick={this.sendEmail}>Wyślij</Button>
                     </Col>
-
                 </Row>
-
-            </div>
         );
     }
 }

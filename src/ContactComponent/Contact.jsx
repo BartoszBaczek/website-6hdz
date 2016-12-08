@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import GoogleMap from 'google-map-react';
 import './Contact.css';
 import Message from './Message';
-import { Col } from 'react-bootstrap';
+import SocialMedia from './SocialMedia';
+import { Col, Row } from 'react-bootstrap';
 
 class Contact extends Component {
     render() {
@@ -15,9 +16,15 @@ class Contact extends Component {
                         bootstrapURLKeys={{key: "AIzaSyCxCOKEipbYo0RgQtVaPD_IkTuzfG7dovI"}}>
                     </GoogleMap>
                 </Col>
-                <Col md={8} mdOffset={4}>
-                    <Message />
-                </Col>
+                <Row>
+                    <Col md={4}>
+                        <SocialMedia />
+                    </Col>
+                    <Col md={8}>
+                        <Message />
+                    </Col>
+                </Row>
+
 
             </div>
 
