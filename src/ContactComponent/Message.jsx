@@ -17,11 +17,11 @@ class Message extends Component {
                     <Col md={6}>
                         <FormControl type="text" placeholder="email"/>
                     </Col>
-                    <Col md={12} className="margin-top-2">
+                    <Col md={12} className="margin-top-1">
                         <FormControl componentClass="textarea" type="textarea" placeholder="wiadomość" rows={10}/>
                     </Col>
                     <Col md={12} className="margin-top-1">
-                        <Button bsSize="medium" block onClick={this.sendEmail}>Wyślij</Button>
+                        <Button block onClick={this.sendEmail}>Wyślij</Button>
                     </Col>
 
                 </Row>
