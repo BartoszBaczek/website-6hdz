@@ -1,0 +1,22 @@
+{"socialMedia":[
+    {
+        "name": "facebook",
+        "image":  "./../../assets/socialMedia/facebook.png",
+        "url": "facebook.com"
+    },
+    {
+        "name": "youtube",
+        "image":  "./../../assets/socialMedia/youtube.png",
+        "url": "youtube.com"
+    },
+    {
+        "name": "snapchat",
+        "image":  "./../../assets/socialMedia/snapchat.png",
+        "url": "snapchat.com"
+    },
+    {
+        "name": "instagram",
+        "image":  "./../../assets/socialMedia/instagram.png",
+        "url": "instagram.com"
+    }
+]}
