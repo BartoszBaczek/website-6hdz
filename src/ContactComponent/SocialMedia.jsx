@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './SocialMedia.css';
-// import { Col, Row } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
+var socialMediaData = require("../../data/socialMedia.json");
 
 class SocialMedia extends Component {
     render() {
         return (
-            <div>ale fajowskie</div>
+            <Image src={process.env.PUBLIC_URL + socialMediaData.socialMedia[0].logo} responsive/>
         );
     }
 }
