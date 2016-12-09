@@ -1,22 +1,22 @@
 {"socialMedia":[
     {
         "name": "facebook",
-        "image":  "./../../assets/socialMedia/facebook.png",
+        "logo":  "./../../assets/socialMediaIcons/facebook.png",
         "url": "facebook.com"
     },
     {
         "name": "youtube",
-        "image":  "./../../assets/socialMedia/youtube.png",
+        "logo":  "./../../assets/socialMediaIcons/youtube.png",
         "url": "youtube.com"
     },
     {
         "name": "snapchat",
-        "image":  "./../../assets/socialMedia/snapchat.png",
+        "logo":  "./../../assets/socialMediaIcons/snapchat.png",
         "url": "snapchat.com"
     },
     {
         "name": "instagram",
-        "image":  "./../../assets/socialMedia/instagram.png",
+        "logo":  "./../../assets/socialMediaIcons/instagram.png",
         "url": "instagram.com"
     }
 ]}
