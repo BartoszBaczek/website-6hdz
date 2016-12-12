@@ -30,8 +30,6 @@ class NavigationBar extends Component {
                     <Nav pullRight>
                         <NavItem><Link activeClass="active" to="section-2" spy={true} smooth={true} duration={500}>Aktualności</Link></NavItem>
                         <NavItem><Link activeClass="active" to="section-3" spy={true} smooth={true} duration={500}>O nas</Link></NavItem>
-                        <NavItem><Link activeClass="active" to="section-4" spy={true} smooth={true} duration={500}>Media</Link></NavItem>
-                        <NavItem><Link activeClass="active" to="section-5" spy={true} smooth={true} duration={500}>Lokalizacja</Link></NavItem>
                         <NavItem><Link activeClass="active" to="section-6" spy={true} smooth={true} duration={500}>Nasi partnerzy</Link></NavItem>
                         <NavItem><Link activeClass="active" to="section-7" spy={true} smooth={true} duration={500}>Kontakt</Link></NavItem>
                     </Nav>
