@@ -8,28 +8,12 @@ class SocialMedia extends Component {
     render() {
         return (
             <Row className="margin-top-2">
-                <Col md={12}>
-                    <i className="fa fa-camera-retro fa-5x"></i> fa-5x
-                    <h3>6 Harcerska Drużyna Żeglarska im. kmdr. por. Zbigniewa Przybyszewskiego w Rybniku</h3>
+                <Col md={11} mdOffset={1}>
+                    <p><i className="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Stanica Wodna 6HDŻ, Rudzka, 44-200 Rybnik</p>
+                    <p><i className="fa fa-phone" aria-hidden="true"></i>&nbsp; 604-293-288</p>
+                    <p><i className="fa fa-envelope" aria-hidden="true"></i>&nbsp; 6hdz.zhprybnik@gmail.com</p>
                 </Col>
-                <Row>
-                    <Col md={6}>
-                        <Image src={process.env.PUBLIC_URL + socialMediaData.socialMedia[0].logo} responsive/>
-                    </Col>
-                    <Col md={6}>
-                        <Image src={process.env.PUBLIC_URL + socialMediaData.socialMedia[1].logo} responsive/>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={6}>
-                        <Image src={process.env.PUBLIC_URL + socialMediaData.socialMedia[2].logo} responsive/>
-                    </Col>
-                    <Col md={6}>
-                        <Image src={process.env.PUBLIC_URL + socialMediaData.socialMedia[3].logo} responsive/>
-                    </Col>
-                </Row>
             </Row>
-
         );
     }
 }
