@@ -1,0 +1,32 @@
+{"layers" : [
+    {
+        "index": 0,
+        "speed": 0.05,
+        "maxScroll": 565 
+    },
+    {
+        "index": 1,
+        "speed": 0.1,
+        "maxScroll": 565 
+    },
+    {
+        "index": 2,
+        "speed": 0.3,
+        "maxScroll": 565 
+    },
+    {
+        "index": 3,
+        "speed": 0.5,
+        "maxScroll": 565 
+    },
+    {
+        "index": 4,
+        "speed": 0.7,
+        "maxScroll": 565 
+    },
+    {
+        "index": 5,
+        "speed": 0.9,
+        "maxScroll": 565 
+    }
+]}
