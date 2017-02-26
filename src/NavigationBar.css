@@ -6,8 +6,3 @@
 .home-logo:hover {
   cursor: pointer;
 }
-
-/* removes default bootstrap navbar margin */
-.navbar {
-    margin-bottom: 0 !important;
-}

@@ -17,7 +17,7 @@ class NavigationBar extends Component {
 
     render() {
         return (
-             <Navbar inverse className="navbar" fixedTop={true}>
+             <Navbar inverse fixedTop={true}>
                  <Navbar.Header>
                      <Navbar.Brand>
                         <Link activeClass="active" to="section-1" spy={true} smooth={true} duration={500}>
