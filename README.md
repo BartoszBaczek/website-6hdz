@@ -6,7 +6,7 @@ Paralax scrolling website for 6 Harcerska Druzyna Zeglarska using react.
 
 ## Live demo
 
-https://guarded-wildwood-47445.heroku.com
+https://obscure-shore-28115.herokuapp.com/
 
 ## To Use
 
