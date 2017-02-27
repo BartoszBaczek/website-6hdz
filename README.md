@@ -14,7 +14,7 @@ https://obscure-shore-28115.herokuapp.com/
 # Clone this repository
 git clone https://github.com/BartoszBaczek/website-6hdz.git
 # Go into the repository
-cd 6hdz-website
+cd website-6hdz
 # Install dependencies and run the app
 npm install && npm start
 ```
