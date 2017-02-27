@@ -23,7 +23,6 @@ class ParallaxSegment extends Component {
     }
 
     componentWillReceiveProps() {
-        // console.log(`CurrentScroll: ${this.props.currentScroll}    |||    MaxScroll: ${this.props.maxScroll}`)
         let offset;
         if (this.props.currentScroll < (506 - this.props.top)) {       // to mi sie nie podoba (dla 300 wyglada lepiej, ale dlaczego)
             offset = -(this.props.currentScroll * this.props.speed);
