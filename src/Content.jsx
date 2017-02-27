@@ -10,20 +10,18 @@ class Content extends Component {
     render() {
         return(
             <div className="content">
-                <Element name="section-1" className="header-page">
-                    <Header />
-                </Element>
-                <Element name="section-2" className="element">
+                <Header />
+                <Element name="news" className="page-block">
                     Aktualności
                 </Element>
-                <Element name="section-3" className="about-us-page">
+                <Element name="aboutUs" className="page-block">
                     <h1 className="about-us-header">Nasz kadra</h1>
                     <AboutUs />
                 </Element>
-                <Element name="section-6" className="element">
+                <Element name="partners" className="page-block">
                     Nasi partnerzy
                 </Element>
-                <Element name="section-7" className="contact-page">
+                <Element name="contact" className="page-block">
                     <h1 className="contact-header">Kontakt</h1>
                     <Contact />
                 </Element>

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ParallaxSegment from './ParallaxSegment';
 import './Header.css';
-var parallaxScrollData = require("../../data/parallaxScroll.json");
 
 
 class Header extends Component {
@@ -22,7 +21,6 @@ class Header extends Component {
     }
 
     handleScroll = (event) => {
-        let scrollY = 
         this.setState({scrollOffset: window.pageYOffset});
     }
 
@@ -33,32 +31,32 @@ class Header extends Component {
                 speed={0.1}
                 maxScroll={565}
                 currentScroll={this.state.scrollOffset}
-                top={-100}
+                top={-140}
                 zIndex={5}
                 backgroundImage={"./../assets/img/parallax/layer1.png"}/>
+                <ParallaxSegment 
+                speed={0.2}
+                maxScroll={565}
+                currentScroll={this.state.scrollOffset}
+                top={-90}
+                zIndex={10}
+                backgroundImage={"./../assets/img/parallax/layer2.png"}/>
                 <ParallaxSegment 
                 speed={0.3}
                 maxScroll={565}
                 currentScroll={this.state.scrollOffset}
-                top={-50}
-                zIndex={10}
-                backgroundImage={"./../assets/img/parallax/layer2.png"}/>
-                <ParallaxSegment 
-                speed={0.5}
-                maxScroll={565}
-                currentScroll={this.state.scrollOffset}
-                top={-10}
+                top={-40}
                 zIndex={15}
                 backgroundImage={"./../assets/img/parallax/layer3.png"}/>
                 <ParallaxSegment 
-                speed={0.7}
+                speed={0.4}
                 maxScroll={565}
                 currentScroll={this.state.scrollOffset}
-                top={65}
+                top={45}
                 zIndex={20}
                 backgroundImage={"./../assets/img/parallax/layer4.png"}/>
                 <ParallaxSegment 
-                speed={0.9}
+                speed={1}
                 maxScroll={565}
                 currentScroll={this.state.scrollOffset}
                 top={150}
