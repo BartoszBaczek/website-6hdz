@@ -32,7 +32,7 @@ class ParallaxSegment extends Component {
                     zIndex: this.props.zIndex, 
                     backgroundImage: `url(${this.props.backgroundImage})`,
                     WebkitTransform: this.state.webkitTransform}
-                } 
+                }
                 className="parallax-layer">
             </div>
         );
