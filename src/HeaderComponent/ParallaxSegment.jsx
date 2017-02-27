@@ -8,8 +8,6 @@ class ParallaxSegment extends Component {
         this.state = {
             webkitTransform: null
         }
-
-        this.setYTransform(-(this.props.scrollY * this.props.speed));
     }
 
     componentWillReceiveProps() {
@@ -21,7 +19,10 @@ class ParallaxSegment extends Component {
     }   
 
     setYTransform(offset) {
-        this.state.webkitTransform = "translate3d(0, " + offset + "px, 0)";
+        this.setState({
+            webkitTransform: "translate3d(0, " + offset + "px, 0)"
+        })
+        // this.state.webkitTransform = "translate3d(0, " + offset + "px, 0)";
     }
 
     render() {
