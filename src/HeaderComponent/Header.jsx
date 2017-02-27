@@ -22,8 +22,8 @@ class Header extends Component {
     }
 
     handleScroll = (event) => {
-        let scrollY = Math.max(window.pageYOffset, 0);
-        this.setState({scrollOffset: scrollY});
+        let scrollY = 
+        this.setState({scrollOffset: window.pageYOffset});
     }
 
     render() {
