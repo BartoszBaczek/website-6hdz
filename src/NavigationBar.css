@@ -1,7 +1,7 @@
 .home-logo {
   filter: invert(100%);
   width:30%;
-  margin-top: -12px;
+  margin-top: 2px;
 }
 .home-logo:hover {
   cursor: pointer;

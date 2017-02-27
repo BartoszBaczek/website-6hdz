@@ -22,11 +22,7 @@ class NavigationBar extends Component {
         return (
              <Navbar inverse fixedTop={true}>
                  <Navbar.Header>
-                     <Navbar.Brand>
-                        <Link>
                             <img className="home-logo" alt="Brand" src="./../favicon.ico" onClick={this.scrollToTop}></img>
-                        </Link>
-                     </Navbar.Brand>
                      <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse>
