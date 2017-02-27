@@ -22,7 +22,6 @@ class ParallaxSegment extends Component {
         this.setState({
             webkitTransform: "translate3d(0, " + offset + "px, 0)"
         })
-        // this.state.webkitTransform = "translate3d(0, " + offset + "px, 0)";
     }
 
     render() {
