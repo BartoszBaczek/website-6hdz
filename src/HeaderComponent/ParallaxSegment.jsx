@@ -12,7 +12,7 @@ class ParallaxSegment extends Component {
 
     componentWillReceiveProps() {
         let offset;
-        if (this.props.currentScroll < this.props.maxScroll) {       // to mi sie nie podoba (dla 300 wyglada lepiej, ale dlaczego)
+        if (this.props.currentScroll < this.props.maxScroll) {
             offset = -(this.props.currentScroll * this.props.speed);
             this.setYTransform(offset);
         }
@@ -21,7 +21,7 @@ class ParallaxSegment extends Component {
     setYTransform(offset) {
         this.setState({
             webkitTransform: "translate3d(0, " + offset + "px, 0)"
-        })
+        });
     }
 
     render() {
