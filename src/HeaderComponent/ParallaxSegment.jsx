@@ -17,24 +17,17 @@ class ParallaxSegment extends Component {
 
         this.state = {
             webkitTransform: null,
-            MozTransfor: null,
-            OTransform: null,
-            transform: null,
-            msTransfor: null
         }
 
         this.setYTransform(-(this.props.scrollY * this.props.speed));
     }
 
     componentWillReceiveProps() {
-        // console.log(`CurrentScroll: ${this.props.currentScroll}    |||    MaxScroll: ${this.props.maxScroll}`)
         let offset;
         if (this.props.currentScroll < this.props.maxScroll) {       // to mi sie nie podoba (dla 300 wyglada lepiej, ale dlaczego)
             offset = -(this.props.currentScroll * this.props.speed);
             this.setYTransform(offset);
-            console.log('it happend! it happened again!')
         }
-        console.log(`OFFSET: ${this.state.webkitTransform}`)
     }   
 
     setYTransform(offset) {
@@ -48,7 +41,7 @@ class ParallaxSegment extends Component {
                     top:`${this.props.top}px`, 
                     zIndex: this.props.zIndex, 
                     backgroundImage: `url(${this.props.backgroundImage})`,
-                    webkitTransform: this.state.webkitTransform}
+                    WebkitTransform: this.state.webkitTransform}
                 } 
                 className="parallax-layer">
             </div>
