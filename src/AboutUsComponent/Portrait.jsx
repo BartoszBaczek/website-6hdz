@@ -3,14 +3,6 @@ import './Portrait.css';
 import { Image } from 'react-bootstrap';
 
 class Portrait extends Component {
-    propTypes: {
-        scoutRank : React.PropTypes.string,
-        yachtRank : React.PropTypes.string,
-        nameSurname : React.PropTypes.string,
-        role : React.PropTypes.string,
-        photo : React.PropTypes.string,
-    }
-
     render() {
         return (
             <div className="hovereffect">

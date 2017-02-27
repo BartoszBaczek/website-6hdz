@@ -2,16 +2,6 @@ import React, { Component } from 'react';
 import './ParallaxSegment.css';
 
 class ParallaxSegment extends Component {
-
-    propTypes: {
-        speed: React.PropTypes.number,
-        maxScroll: React.PropTypes.number,
-        currentScroll: React.PropTypes.number,
-        top: React.PropTypes.number,
-        zIndex: React.PropTypes.number,
-        backgroundImage: React.PropTypes.string
-    }
-
    constructor(props) {
         super(props);
 
