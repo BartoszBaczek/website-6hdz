@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import { Gmaps, Marker, InfoWindow, Circle } from 'react-gmaps';
+import { Gmaps, Marker } from 'react-gmaps';
 import Message from './Message';
 import SocialMedia from './SocialMedia';
 import './Contact.css';
