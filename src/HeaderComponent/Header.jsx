@@ -11,7 +11,6 @@ class Header extends Component {
         this.state = {
             scrollOffset: window.pageYOffset
         }
-        console.log(this.state.scrollOffset);
     }
 
     componentDidMount() {
