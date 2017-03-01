@@ -12,16 +12,18 @@ class Header extends Component {
     }
 
     componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.onScroll);
     }
 
     componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.onScroll);
     }
 
-    handleScroll = (event) => {
+    onScroll = (event) => {
         this.setState({scrollOffset: window.pageYOffset});
     }
+
+    
 
     render() {
         return(
