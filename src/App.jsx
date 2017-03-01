@@ -8,7 +8,7 @@ import Content from './Content.jsx';
 class App extends Component {
   render() {
     return (
-        <div>
+        <div className="color-schema">
             <NavigationBar />
             <Content />
         </div>
