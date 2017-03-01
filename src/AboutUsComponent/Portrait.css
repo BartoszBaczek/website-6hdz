@@ -9,6 +9,7 @@
 }
 
 .hovereffect .overlay {
+    color: white;
     width:100%;
     height:100%;
     position:absolute;
@@ -30,7 +31,6 @@
 
 .hovereffect h2 {
     text-transform:uppercase;
-    color:#fff;
     text-align:center;
     position:relative;
     font-size:17px;
@@ -50,7 +50,7 @@
 }
 
 .hovereffect:hover .overlay {
-    color: white;
+    color: #fff;
     opacity:1;
     filter:alpha(opacity=100);
 }
