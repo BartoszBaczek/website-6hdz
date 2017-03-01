@@ -11,7 +11,6 @@ class ParallaxSegment extends Component {
     }
 
     componentWillReceiveProps() {
-        let offset;
         if (this.props.currentScroll < this.props.maxScroll) {
             this.setState({
                 webkitTransform: `translate3d(0, ${-this.props.currentScroll * this.props.speed}px, 0)`
