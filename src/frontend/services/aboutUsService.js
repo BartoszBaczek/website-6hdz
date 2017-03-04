@@ -1,5 +1,3 @@
-'use strict';
-
 import fetchService from './fetchService';
 
 const aboutUsService = {
