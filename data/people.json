@@ -4,83 +4,83 @@
         "yachtRank":"Sternik morski",
         "nameSurname": "Bartosz Gliwa",
         "role": "Druzynowy",
-        "photo": "./../../assets/img/bGliwa.jpg"
+        "photo": "./../../assets/img/people/bGliwa.jpg"
     },
     {
         "scoutRank":"pwd.",
         "yachtRank":"Żeglarz jachtowy",
         "nameSurname": "Jan Gliwa",
         "role": "Przyboczny",
-        "photo": "./../../assets/img/jGliwa.jpg"
+        "photo": "./../../assets/img/people/jGliwa.jpg"
     },
     {
         "scoutRank":"phm.",
         "yachtRank":"Sternik morski",
         "nameSurname": "Krzysztof Popek",
         "role": "Gospodarz stanicy",
-        "photo": "./../../assets/img/kPopek.jpg"
+        "photo": "./../../assets/img/people/kPopek.jpg"
     },
     {
         "scoutRank":"pwd.",
         "yachtRank":"Żeglarz jachtowy",
         "nameSurname": "Paweł Kowacki",
         "role": "Bosman",
-        "photo": "./../../assets/img/pKowacki.jpg"
+        "photo": "./../../assets/img/people/pKowacki.jpg"
     },
     {
         "scoutRank":"phm.",
         "yachtRank":"Sternik morski",
         "nameSurname": "Ola Wieczorek",
         "role": "HSI",
-        "photo": "./../../assets/img/aWieczorek.jpg"
+        "photo": "./../../assets/img/people/aWieczorek.jpg"
     },
     {
         "scoutRank":"pwd.",
         "yachtRank":"Żeglarz jachtowy",
         "nameSurname": "Natalia Kruczak",
         "role": "Załogowa",
-        "photo": "./../../assets/img/nKruczak.jpg"
+        "photo": "./../../assets/img/people/nKruczak.jpg"
     },
     {
         "scoutRank":"hm.",
         "yachtRank":"Sternik morski",
         "nameSurname": "Olga Sowińska",
         "role": "Załogowa",
-        "photo": "./../../assets/img/oSawinska.jpg"
+        "photo": "./../../assets/img/people/oSawinska.jpg"
     },
     {
         "scoutRank":"hm.",
         "yachtRank":"Kapitan jachtowy",
         "nameSurname": "Paweł Mańka",
         "role": "Załogowy",
-        "photo": "./../../assets/img/pManka.jpg"
+        "photo": "./../../assets/img/people/pManka.jpg"
     },
     {
         "scoutRank":"pwd.",
         "yachtRank":"Sternik morski",
         "nameSurname": "Weronika Kozaczko",
         "role": "Załogowa",
-        "photo": "./../../assets/img/wKozaczko.jpg"
+        "photo": "./../../assets/img/people/wKozaczko.jpg"
     },
     {
         "scoutRank":"pwd.",
         "yachtRank":"Żeglarz jachtowy",
         "nameSurname": "Zuzanna Mańka",
         "role": "Głowny instruktor",
-        "photo": "./../../assets/img/zManka.jpg"
+        "photo": "./../../assets/img/people/zManka.jpg"
     },
     {
         "scoutRank":"hm.",
         "yachtRank":"Żeglarz jachtowy",
         "nameSurname": "Dominika Osuch",
         "role": "Załogowa",
-        "photo": "./../../assets/img/dOsuch.jpg"
+        "photo": "./../../assets/img/people/dOsuch.jpg"
     },
     {
         "scoutRank":"??",
         "yachtRank":"??",
         "nameSurname": "??",
         "role": "??",
-        "photo": "./../../assets/img/nieznany.jpg"
+        "photo": "./../../assets/img/people/nieznany.jpg"
     }
 ]
