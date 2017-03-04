@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Portrait from './Portrait'
 import './AboutUs.css';
 import { Col, Row } from 'react-bootstrap';
-var aboutUsData = require("../../data/people.json");
+var aboutUsData = require("../../../data/people.json");
 
 class AboutUs extends Component {
     render() {
