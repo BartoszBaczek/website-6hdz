@@ -5,6 +5,7 @@ import AboutUs from './pages/aboutUs/AboutUs';
 import Contact from './pages/contact/Contact';
 import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header';
+import Partners from './pages/partners/Partners';
 import './App.css';
 
 class App extends Component {
@@ -43,7 +44,8 @@ class App extends Component {
                     <AboutUs />
                 </Element>
                 <Element name="partners" className="page-block">
-                    Nasi partnerzy
+                    <h1 className="partners-header">Nasi partnerzy</h1>
+                    <Partners />
                 </Element>
                 <Element name="contact" className="page-block">
                     <h1 className="contact-header">Kontakt</h1>
