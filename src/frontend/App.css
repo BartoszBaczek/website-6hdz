@@ -1,3 +1,38 @@
 .color-schema {
     color: darkorange;
 }
+
+.content {
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  min-height: 1500px;
+}
+.element {
+	height:730px;
+    overflow: hidden;
+}
+.about-us-header {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contact-header {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.page-block {
+    overflow: hidden;
+    position: relative;
+    background-color: #415a6c;
+}
+
+.home-logo {
+  filter: invert(100%);
+  width:30%;
+  margin-top: 2px;
+}
+.home-logo:hover {
+  cursor: pointer;
+}
