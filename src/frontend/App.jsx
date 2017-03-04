@@ -7,6 +7,7 @@ import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header';
 import './App.css';
 
+import aboutUsService from './services/aboutUsService';
 
 class App extends Component {
   componentDidMount() {
