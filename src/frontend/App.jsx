@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavigationBar from './NavigationBar.jsx';
-import Content from './Content.jsx';
+import NavigationBar from './NavigationBar';
+import Content from './Content';
 
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap';
-import './NavigationBar.css';
 import { Link, Events, animateScroll } from 'react-scroll';
+import './NavigationBar.css';
 
 class NavigationBar extends Component {
     componentDidMount() {
