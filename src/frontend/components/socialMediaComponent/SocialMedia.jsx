@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './SocialMedia.css';
 import { Col, Row } from 'react-bootstrap';
+import './SocialMedia.css';
 
 class SocialMedia extends Component {
     render() {

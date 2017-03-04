@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { Col, Row } from 'react-bootstrap';
 import Portrait from '../../components/portraitComponent/Portrait';
 import './AboutUs.css';
-import { Col, Row } from 'react-bootstrap';
 var aboutUsData = require("../../../../data/people.json");      // to bedzie szlo z serwera
 
 class AboutUs extends Component {

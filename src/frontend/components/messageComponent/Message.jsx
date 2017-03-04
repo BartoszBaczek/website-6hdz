@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Message.css';
 import { Col, Row, FormControl, Button } from 'react-bootstrap';
+import './Message.css';
 
 class Message extends Component {
     sendEmail() {

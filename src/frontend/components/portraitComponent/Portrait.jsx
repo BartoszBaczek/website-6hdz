@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Portrait.css';
 import { Image } from 'react-bootstrap';
+import './Portrait.css';
 
 class Portrait extends Component {
     render() {

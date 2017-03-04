@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap';
 import { Link, Events, animateScroll, Element } from 'react-scroll';
-
 import AboutUs from './pages/aboutUs/AboutUs';
 import Contact from './pages/contact/Contact';
 import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header';
-
 import './App.css';
-import './NavigationBar.css';
-import './Content.css';
 
 
 class App extends Component {
