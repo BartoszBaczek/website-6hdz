@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Element } from 'react-scroll';
-import AboutUs from './AboutUsComponent/AboutUs.jsx';
-import Contact from './ContactComponent/Contact.jsx';
-import Footer from './FooterComponent/Footer.jsx';
-import Header from './HeaderComponent/Header.jsx';
+import AboutUs from './pages/aboutUs/AboutUs.jsx';
+import Contact from './pages/contact/Contact.jsx';
+import Footer from './pages/footer/Footer.jsx';
+import Header from './pages/header/Header.jsx';
 import './Content.css';
 
 class Content extends Component {

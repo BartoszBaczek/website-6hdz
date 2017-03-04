@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
 import { Gmaps, Marker } from 'react-gmaps';
-import Message from './Message';
-import SocialMedia from './SocialMedia';
+import Message from '../../components/messageComponent/Message';
+import SocialMedia from '../../components/socialMediaComponent/SocialMedia';
 import './Contact.css';
 
 const coords = {

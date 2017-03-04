@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ParallaxSegment from './ParallaxSegment';
+import ParallaxSegment from '../../components/parallaxComponent/ParallaxSegment';
 import './Header.css';
 
 
