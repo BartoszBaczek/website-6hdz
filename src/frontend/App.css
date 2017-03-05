@@ -1,7 +1,9 @@
 .color-schema {
     color: darkorange;
 }
-
+.nav.navbar-nav li a {
+   color: darkorange;
+ }
 .content {
   position: absolute;
   top: 600px;

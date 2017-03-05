@@ -6,7 +6,7 @@ class SocialMedia extends Component {
     render() {
         return (
             <Row className="margin-top-2">
-                <Col md={11} mdOffset={1}>
+                <Col md={11} mdOffset={1} className="white-icons-default-text-nice-links">
                     <h1><b>Skontaktuj się z nami</b></h1>
                     <p><i className="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Stanica Wodna 6HDŻ, Rudzka, 44-200 Rybnik</p>
                     <p><i className="fa fa-phone" aria-hidden="true"></i>&nbsp; 604-293-288</p>

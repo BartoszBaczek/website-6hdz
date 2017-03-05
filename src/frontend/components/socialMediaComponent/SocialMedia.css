@@ -1,3 +1,13 @@
 .margin-top-2 {
     margin-top: 2em;
 }
+
+.white-icons-default-text-nice-links i {
+    color: white;
+}
+
+.white-icons-default-text-nice-links a {
+    color: darkorange;
+    text-decoration: underline;
+}
+
