@@ -42,7 +42,7 @@ class Partners extends Component {
                 )
             } else if ((this.state.partners.length - i) === 3) {
                 logos.push(
-                    <Row key={i}>
+                    <Row key={i} className="vertical-offset">
                         <Col md={11} mdOffset={1}>
                             <Col md={3} mdOffset={1}>
                                 <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
@@ -58,7 +58,7 @@ class Partners extends Component {
                 )
             } else if ((this.state.partners.length - i) === 2) {
                 logos.push(
-                    <Row key={i}>
+                    <Row key={i} className="vertical-offset">
                         <Col md={3} mdOffset={3}>
                             <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
                         </Col>
@@ -69,7 +69,7 @@ class Partners extends Component {
                 )
             } else if ((this.state.partners.length - i) === 1) {
                 logos.push(
-                    <Row key={i}>
+                    <Row key={i} className="vertical-offset">
                         <Col md={11} mdOffset={1}>
                             <Col md={3} mdOffset={4}>
                                 <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
