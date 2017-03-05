@@ -1,0 +1,22 @@
+[
+    {
+        "name":"nazwaFirmy 1",
+        "logo": "./../../assets/img/logos/sampleLogo1.png",
+        "url": "http://google.pl"
+    },
+    {
+        "name":"nazwaFirmy 1",
+        "logo": "./../../assets/img/logos/sampleLogo2.png",
+        "url": "http://onet.pl"
+    },
+    {
+        "name":"nazwaFirmy 1",
+        "logo": "./../../assets/img/logos/sampleLogo3.png",
+        "url": "http://wp.pl"
+    },
+    {
+        "name":"nazwaFirmy 1",
+        "logo": "./../../assets/img/logos/sampleLogo4.png",
+        "url": "http://interia.pl"
+    }
+]
