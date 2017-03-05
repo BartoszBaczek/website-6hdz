@@ -21,7 +21,27 @@
     },
     {
         "name":"nazwaFirmy 3",
-        "logo": "./../../assets/img/logos/sampleLogo3.png",
+        "logo": "./../../assets/img/logos/sampleLogo5.png",
+        "url": "http://wp.pl"
+    },
+    {
+        "name":"nazwaFirmy 3",
+        "logo": "./../../assets/img/logos/sampleLogo6.png",
+        "url": "http://wp.pl"
+    },
+    {
+        "name":"nazwaFirmy 3",
+        "logo": "./../../assets/img/logos/sampleLogo7.png",
+        "url": "http://wp.pl"
+    },
+    {
+        "name":"nazwaFirmy 3",
+        "logo": "./../../assets/img/logos/sampleLogo8.png",
+        "url": "http://wp.pl"
+    },
+    {
+        "name":"nazwaFirmy 3",
+        "logo": "./../../assets/img/logos/sampleLogo9.png",
         "url": "http://wp.pl"
     }
 ]

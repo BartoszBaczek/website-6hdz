@@ -25,7 +25,7 @@ class Partners extends Component {
         for (let i = 0; i <= this.state.partners.length; i+=4) {
             if ((this.state.partners.length - i) >= 4) {
                 logos.push(
-                    <Row key={i}>
+                    <Row key={i} className="vertical-offset">
                         <Col md={3}>
                             <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
                         </Col>
