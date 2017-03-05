@@ -5,18 +5,23 @@
         "url": "http://google.pl"
     },
     {
-        "name":"nazwaFirmy 1",
+        "name":"nazwaFirmy 2",
         "logo": "./../../assets/img/logos/sampleLogo2.png",
         "url": "http://onet.pl"
     },
     {
-        "name":"nazwaFirmy 1",
+        "name":"nazwaFirmy 3",
         "logo": "./../../assets/img/logos/sampleLogo3.png",
         "url": "http://wp.pl"
     },
     {
-        "name":"nazwaFirmy 1",
+        "name":"nazwaFirmy 4",
         "logo": "./../../assets/img/logos/sampleLogo4.png",
         "url": "http://interia.pl"
+    },
+    {
+        "name":"nazwaFirmy 3",
+        "logo": "./../../assets/img/logos/sampleLogo3.png",
+        "url": "http://wp.pl"
     }
 ]

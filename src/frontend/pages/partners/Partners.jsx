@@ -40,33 +40,45 @@ class Partners extends Component {
                         </Col>
                     </Row>
                 )
+            } else if ((this.state.partners.length - i) === 3) {
+                logos.push(
+                    <Row key={i}>
+                        <Col md={11} mdOffset={1}>
+                            <Col md={3} mdOffset={1}>
+                                <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
+                            </Col>
+                            <Col md={3}>
+                                <Image src={process.env.PUBLIC_URL + this.state.partners[i+1].logo} responsive/>
+                            </Col>
+                            <Col md={3}>
+                                <Image src={process.env.PUBLIC_URL + this.state.partners[i+2].logo} responsive/>
+                            </Col>
+                        </Col>
+                    </Row>
+                )
+            } else if ((this.state.partners.length - i) === 2) {
+                logos.push(
+                    <Row key={i}>
+                        <Col md={3} mdOffset={3}>
+                            <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
+                        </Col>
+                        <Col md={3}>
+                            <Image src={process.env.PUBLIC_URL + this.state.partners[i+1].logo} responsive/>
+                        </Col>
+                    </Row>
+                )
+            } else if ((this.state.partners.length - i) === 1) {
+                logos.push(
+                    <Row key={i}>
+                        <Col md={11} mdOffset={1}>
+                            <Col md={3} mdOffset={4}>
+                                <Image src={process.env.PUBLIC_URL + this.state.partners[i].logo} responsive/>
+                            </Col>
+                        </Col>
+                    </Row>
+                )
             }
         }
-            
-             /*else if (logos.Count == 3)  {
-                    <Col md={11} mdOffset={1}>
-                    <Col mdOffset={1} md={3}>
-                        photo
-                    </Col>
-                    <Col md={3}>
-                        photo
-                    </Col>
-                    <Col md={3}>
-                        photo
-                    </Col>
-                    </Col>
-                } else if (logos.count == 2) {
-                    <Col mdOffset={3} md={3}>
-                        photo
-                    <Col>
-                    <Col md={3}>
-                        photos
-                    </Col>
-                } else {
-
-                }
-            } */
-
         return(
             <div>
                 {logos}
