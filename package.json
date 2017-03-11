@@ -14,6 +14,7 @@
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
-    "client": "nodemon start-client.js"
+    "client": "nodemon start-client.js",
+    "build": "cd client && npm run build"
   }
 }
