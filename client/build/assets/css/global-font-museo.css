@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Museo 100';
+    src: url('./assets/fonts/Museo100-Regular.eot');
+    src: url('./assets/fonts/Museo100-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+* {
+    font-family: "Museo 100", Verdana, Tahoma;
+}
