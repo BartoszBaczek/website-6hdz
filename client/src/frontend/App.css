@@ -14,6 +14,11 @@
 	height:730px;
     overflow: hidden;
 }
+.news-header {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
 .about-us-header {
     margin-top: 60px;
     margin-bottom: 50px;

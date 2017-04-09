@@ -11,6 +11,7 @@ class Portrait extends Component {
                     <h2>{this.props.scoutRank} {this.props.nameSurname}</h2>
                     <p>{this.props.yachtRank}</p>
                     <p>{this.props.role}</p>
+                    <p>{this.props.photo}</p>
                 </div>
             </div>
         );

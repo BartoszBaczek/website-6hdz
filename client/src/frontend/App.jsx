@@ -6,6 +6,7 @@ import Contact from './pages/contact/Contact';
 import Footer from './pages/footer/Footer';
 import Header from './pages/header/Header';
 import Partners from './pages/partners/Partners';
+import News from './pages/news/News';
 import './App.css';
 
 class App extends Component {
@@ -37,7 +38,8 @@ class App extends Component {
             <div className="content">
                 <Header />
                 <Element name="news" className="page-block">
-                    Aktualności
+                    <h1 className="news-header">Aktualności</h1>
+                    <News />
                 </Element>
                 <Element name="aboutUs" className="page-block">
                     <h1 className="about-us-header">Nasz kadra</h1>

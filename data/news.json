@@ -1,0 +1,37 @@
+[
+    {
+        "title": "testTitle1",
+        "date": "08.04.2017",
+        "content": "<div>dupsko</div>",
+        "miniature": "./../../assets/img/eventMiniature/1.jpg",
+        "miniatureDesc": "Obóz 2017"
+    },
+    {
+        "title": "testTitle2",
+        "date": "06.04.2017",
+        "content": "<div>inne dupsko</div>",
+        "miniature": "./../../assets/img/eventMiniature/2.jpg",
+        "miniatureDesc": "Obóz 2017"
+    },
+    {
+        "title": "testTitle3",
+        "date": "04.04.2017",
+        "content": "<div>jeszcze inne dupsko</div>",
+        "miniature": "./../../assets/img/eventMiniature/3.jpg",
+        "miniatureDesc": "Obóz 2017"
+    },
+    {
+        "title": "testTitle4",
+        "date": "02.04.2017",
+        "content": "<div>echh znowu</div>",
+        "miniature": "./../../assets/img/eventMiniature/4.jpg",
+        "miniatureDesc": "Obóz 2017"        
+    },
+    {
+        "title": "testTitle5",
+        "date": "01.04.2017",
+        "content": "<div><h1>sadasdasdasd</h1></div>",
+        "miniature": "./../../assets/img/eventMiniature/5.jpg",
+        "miniatureDesc": "Obóz 2017"
+    }
+]
