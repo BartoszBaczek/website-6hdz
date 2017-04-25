@@ -2,36 +2,36 @@
     {
         "title": "testTitle1",
         "date": "08.04.2017",
-        "content": "<div>dupsko</div>",
-        "miniature": "./../../assets/img/eventMiniature/1.jpg",
-        "miniatureDesc": "Obóz 2017"
+        "mainContent": "<div>dupsko</div></div>drugieDuspko</div><h1 style=\"background-color: red\">wielkaDupa</h1>",
+        "miniContent": "<div>jestes se mini content</div>",
+        "miniature": "./../../assets/img/eventMiniatures/1.jpg"
     },
     {
         "title": "testTitle2",
         "date": "06.04.2017",
-        "content": "<div>inne dupsko</div>",
-        "miniature": "./../../assets/img/eventMiniature/2.jpg",
-        "miniatureDesc": "Obóz 2017"
+        "mainContent": "<div>inne dupsko</div>",
+        "miniContent": "<div>jestes se mini content</div>",
+        "miniature": "./../../assets/img/eventMiniatures/2.jpg"
     },
     {
         "title": "testTitle3",
         "date": "04.04.2017",
-        "content": "<div>jeszcze inne dupsko</div>",
-        "miniature": "./../../assets/img/eventMiniature/3.jpg",
-        "miniatureDesc": "Obóz 2017"
+        "mainContent": "<div>jeszcze inne dupsko</div>",
+        "miniContent": "<div>jestes se mini content</div>",
+        "miniature": "./../../assets/img/eventMiniatures/3.jpg"
     },
     {
         "title": "testTitle4",
         "date": "02.04.2017",
-        "content": "<div>echh znowu</div>",
-        "miniature": "./../../assets/img/eventMiniature/4.jpg",
-        "miniatureDesc": "Obóz 2017"        
+        "mainContent": "<div>echh znowu</div>",
+        "miniContent": "<div>jestes se mini content</div>",
+        "miniature": "./../../assets/img/eventMiniatures/4.jpg"
     },
     {
         "title": "testTitle5",
         "date": "01.04.2017",
-        "content": "<div><h1>sadasdasdasd</h1></div>",
-        "miniature": "./../../assets/img/eventMiniature/5.jpg",
-        "miniatureDesc": "Obóz 2017"
+        "mainContent": "<div><h1>sadasdasdasd</h1></div>",
+        "miniContent": "<div>jestes se mini content</div>",
+        "miniature": "./../../assets/img/eventMiniatures/5.jpg"
     }
 ]
