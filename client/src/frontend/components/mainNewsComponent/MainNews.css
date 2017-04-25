@@ -1,5 +1,5 @@
 .main-news-placeholder {
-    background-color: red;
+    background: rgba(54, 25, 25, .5);
     height: 70%;
     margin-top: 1%;
 }
