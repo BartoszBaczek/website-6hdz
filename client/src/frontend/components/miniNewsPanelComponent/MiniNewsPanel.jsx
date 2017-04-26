@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import MiniNews from '../../components/miniNewsComponent/MiniNews';
 import './MiniNewsPanel.css';
 
 class MiniNewsPanel extends Component {
 
-    constructor(props) {
-        super(props);
-    }
-
     render() {
-
         let miniNews = [];
         if (this.props.data) {
             for (let i = 0; i <= this.props.data.length - 1; i++) {

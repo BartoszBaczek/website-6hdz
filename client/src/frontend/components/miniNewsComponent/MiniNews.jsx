@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
 import Loading from './../loadingComponent/Loading'
 import dangerousHtml from './../../common/dangerousHtml';
 import './MiniNews.css';

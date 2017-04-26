@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import { Col, Image } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import Loading from './../loadingComponent/Loading';
 import dangerousHtml from './../../common/dangerousHtml';
 import './MainNews.css';
 
 class MainNews extends Component {
-
-    constructor(props) {
-        super(props)
-    }
 
     render() {
         let component;
