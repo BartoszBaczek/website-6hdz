@@ -42,8 +42,10 @@
 
 .home-logo {
   filter: invert(100%);
-  width:30%;
-  margin-top: 2px;
+  height: 70px;
+  width: 70px;
+  margin-top: -10px;
+  position: absolute;
 }
 .home-logo:hover {
   cursor: pointer;

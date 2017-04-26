@@ -22,10 +22,10 @@ class App extends Component {
     return (
         <div className="color-schema">
           <Navbar inverse fixedTop={true}>
-                 <Navbar.Header>
-                    <img className="home-logo" alt="Brand" src="./../favicon.ico" onClick={this.scrollToTop}></img>
+                     <Navbar.Brand>
+                        <img className="home-logo" alt="Brand" src="./../favicon.ico" onClick={this.scrollToTop}></img>
+                    </Navbar.Brand>
                     <Navbar.Toggle />
-                </Navbar.Header>
                 <Navbar.Collapse>
                     <Nav pullRight>
                         <NavItem><Link to="news" smooth={true} duration={500}>Aktualności</Link></NavItem>
