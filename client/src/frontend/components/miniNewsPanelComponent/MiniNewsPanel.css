@@ -1,3 +1,11 @@
 .top-margin {
     margin-top: 1%;
 }
+
+.mini-news-panel-placeholder {
+    height: 120px;
+}
+
+.mini-news-placeholder {
+    height: 100%;
+}

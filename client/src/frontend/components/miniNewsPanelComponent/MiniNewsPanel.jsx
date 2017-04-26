@@ -13,9 +13,9 @@ class MiniNewsPanel extends Component {
 
         let miniNews = [];
         if (this.props.data) {
-            for (let i = 0; i <= this.props.data.length; i++) {
+            for (let i = 0; i <= this.props.data.length - 1; i++) {
                 miniNews.push(
-                    <Col md={3}>  
+                    <Col md={3} className="mini-news-placeholder">  
                         <MiniNews data={this.props.data[i]}/>
                     </Col>
                 )
@@ -23,10 +23,8 @@ class MiniNewsPanel extends Component {
         }
 
         return (
-            <Col md={10} mdOffset={1} className="top-margin">
-                <Row>
+            <Col md={10} mdOffset={1} className="top-margin mini-news-panel-placeholder">
                     {miniNews}
-                </Row>
             </Col>
         );
     }

@@ -10,13 +10,13 @@ class MiniNews extends Component {
 
         if (this.props.data) {
             let html = dangerousHtml.convert(this.props.data.miniContent)
-            component = <div dangerouslySetInnerHTML={html} />
+            component = <span dangerouslySetInnerHTML={html} />
         } else {
             component = <Loading />
         }
 
         return (
-            <div className="hovereffect">
+            <div className="mini-news-placeholder">
                 {component}
             </div>
         );
