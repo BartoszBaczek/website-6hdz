@@ -26,7 +26,7 @@ class AboutUs extends Component {
         for (let i = 0; i <= this.state.people.length; i+=3) {
             if ((this.state.people.length - i) >= 3) {
                 portraits.push(
-                        <Col key={i} md={11} xs={12} mdOffset={1} className="vertical-offset">
+                        <Col key={i} md={11} mdOffset={1} xs={12}  className="vertical-offset">
                             <Col md={3} mdOffset={1} xs={4}>
                                 <Portrait
                                     scoutRank={this.state.people[i].scoutRank}
