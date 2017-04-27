@@ -26,9 +26,8 @@ class AboutUs extends Component {
         for (let i = 0; i <= this.state.people.length; i+=3) {
             if ((this.state.people.length - i) >= 3) {
                 portraits.push(
-                    <Row key={i} className="vertical-offset">   
-                        <Col md={11} mdOffset={1}>
-                            <Col md={3} mdOffset={1}>
+                        <Col key={i} md={11} xs={12} mdOffset={1} className="vertical-offset">
+                            <Col md={3} mdOffset={1} xs={4}>
                                 <Portrait
                                     scoutRank={this.state.people[i].scoutRank}
                                     yachtRank={this.state.people[i].yachtRank}
@@ -37,7 +36,7 @@ class AboutUs extends Component {
                                     photo={this.state.people[i].photo}
                                 />
                             </Col>
-                            <Col md={3}>
+                            <Col md={3} xs={4}>
                                 <Portrait
                                     scoutRank={this.state.people[i+1].scoutRank}
                                     yachtRank={this.state.people[i+1].yachtRank}
@@ -46,7 +45,7 @@ class AboutUs extends Component {
                                     photo={this.state.people[i+1].photo}
                                 />
                             </Col>
-                            <Col md={3}>
+                            <Col md={3} xs={4}>
                                 <Portrait
                                     scoutRank={this.state.people[i+2].scoutRank}
                                     yachtRank={this.state.people[i+2].yachtRank}
@@ -56,12 +55,11 @@ class AboutUs extends Component {
                                 />
                             </Col>
                         </Col>
-                    </Row>
                 )
             } else if ((this.state.people.length - i) === 2) {
                 portraits.push(
-                    <Row key={i} className="vertical-offset">
-                        <Col md={3} mdOffset={3}>
+                    <Col>
+                        <Col key={i} md={3} mdOffset={3} className="vertical-offset">
                             <Portrait
                                 scoutRank={this.state.people[i].scoutRank}
                                 yachtRank={this.state.people[i].yachtRank}
@@ -79,12 +77,11 @@ class AboutUs extends Component {
                                 photo={this.state.people[i+1].photo}
                             />
                         </Col>
-                    </Row>
+                    </Col>
                 )
             } else if ((this.state.people.length - i) === 1) {
                 portraits.push(
-                    <Row key={i} className="vertical-offset">
-                        <Col md={11} mdOffset={1}>
+                        <Col key={i} md={11} mdOffset={1} className="vertical-offset">
                             <Col md={3} mdOffset={4}>
                                 <Portrait
                                     scoutRank={this.state.people[i].scoutRank}
@@ -95,7 +92,6 @@ class AboutUs extends Component {
                                 />
                             </Col>
                         </Col>
-                    </Row>
                 )
             }
         }
