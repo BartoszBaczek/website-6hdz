@@ -9,9 +9,9 @@ class Portrait extends Component {
                 <Image src={process.env.PUBLIC_URL + this.props.photo} responsive/>
                 <div className="overlay">
                     <h2>{this.props.scoutRank} {this.props.nameSurname}</h2>
-                    <p>{this.props.yachtRank}</p>
-                    <p>{this.props.role}</p>
-                    <p>{this.props.photo}</p>
+                    <div className="pull-to-bottom">
+                        <h4>{this.props.role}</h4>
+                    </div>
                 </div>
             </div>
         );

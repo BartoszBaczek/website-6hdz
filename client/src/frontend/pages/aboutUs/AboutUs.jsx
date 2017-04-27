@@ -26,7 +26,7 @@ class AboutUs extends Component {
         for (let i = 0; i <= this.state.people.length; i+=3) {
             if ((this.state.people.length - i) >= 3) {
                 portraits.push(
-                    <Row key={i} className="vertical-offset">
+                    <Row key={i} className="vertical-offset">   
                         <Col md={11} mdOffset={1}>
                             <Col md={3} mdOffset={1}>
                                 <Portrait
