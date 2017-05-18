@@ -27,7 +27,7 @@ class AboutUs extends Component {
         for (let i = 0; i <= this.state.people.length - 1; i++) {
             if ((this.state.people.length - i) >= 3) {
                 portraits.push(
-                    <Col md={4}>
+                    <Col className="centered-content" md={4} xs={6}>
                         <Portrait
                             scoutRank={this.state.people[i].scoutRank}
                             yachtRank={this.state.people[i].yachtRank}
@@ -39,7 +39,7 @@ class AboutUs extends Component {
                 )
             } else if ((this.state.people.length - i) >= 1) {
                 portraits.push(
-                    <Col md={6}>
+                    <Col className="centered-content" md={6} xs={6}>
                         <Portrait
                             scoutRank={this.state.people[i].scoutRank}
                             yachtRank={this.state.people[i].yachtRank}
@@ -51,7 +51,7 @@ class AboutUs extends Component {
                 )
             } else {
                 portraits.push(
-                    <Col md={12}>
+                    <Col className="centered-content" md={12} xs={12}>
                         <Portrait
                             scoutRank={this.state.people[i].scoutRank}
                             yachtRank={this.state.people[i].yachtRank}

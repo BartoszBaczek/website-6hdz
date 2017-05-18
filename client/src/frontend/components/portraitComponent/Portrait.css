@@ -1,5 +1,5 @@
 .hovereffect {
-    width:100%;
+    width:auto;
     height:100%;
     float:left;
     overflow:hidden;
@@ -72,4 +72,9 @@
 .hovereffect:hover {
     -webkit-transition-delay:.2s;
     transition-delay:.2s;
+}
+
+.center-img {
+    display: block;
+    margin: 0 auto;
 }

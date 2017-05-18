@@ -6,7 +6,7 @@ class Portrait extends Component {
     render() {
         return (
             <div className="hovereffect">
-                <Image src={process.env.PUBLIC_URL + this.props.photo} responsive/>
+                <Image className="center-img" src={process.env.PUBLIC_URL + this.props.photo} responsive/>
                 <div className="overlay">
                     <h2>{this.props.scoutRank} {this.props.nameSurname}</h2>
                     <div className="pull-to-bottom">

@@ -1,3 +1,9 @@
 .vertical-offset {
     margin-bottom: 2%;
 }
+
+.centered-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
