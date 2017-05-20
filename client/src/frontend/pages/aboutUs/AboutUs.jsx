@@ -23,10 +23,9 @@ class AboutUs extends Component {
     }
 
     expandPortraits() {
-        let chevronClass = (this.state.chevronClass == 'chevron-top') ? 'chevron-bottom' : 'chevron-top';
         this.setState({ 
             portraitsExpanded: !this.state.portraitsExpanded,
-            chevronClass: chevronClass
+            chevronClass: (this.state.chevronClass === 'chevron-top') ? 'chevron-bottom' : 'chevron-top'
         });
     }
 
