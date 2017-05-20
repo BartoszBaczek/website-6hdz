@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Row, Collapse } from 'react-bootstrap';
+import { Col, Collapse } from 'react-bootstrap';
 import Portrait from '../../components/portraitComponent/Portrait';
 import aboutUsService from '../../services/aboutUsService';
 import './AboutUs.css';
