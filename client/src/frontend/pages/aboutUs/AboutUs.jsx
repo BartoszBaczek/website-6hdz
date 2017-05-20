@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col } from 'react-bootstrap';
+import { Col, Row, Collapse } from 'react-bootstrap';
 import Portrait from '../../components/portraitComponent/Portrait';
 import aboutUsService from '../../services/aboutUsService';
 import './AboutUs.css';
@@ -10,13 +10,23 @@ class AboutUs extends Component {
         super();
 
         this.state = {
-            people: []
+            people: [],
+            portraitsExpanded: false,
+            chevronClass: 'chevron-top'
         }
     }
 
     componentDidMount() {
         aboutUsService.getAll((error, response) => {
             this.setState({people: response.body})
+        });
+    }
+
+    expandPortraits() {
+        let chevronClass = (this.state.chevronClass == 'chevron-top') ? 'chevron-bottom' : 'chevron-top';
+        this.setState({ 
+            portraitsExpanded: !this.state.portraitsExpanded,
+            chevronClass: chevronClass
         });
     }
 
@@ -65,7 +75,14 @@ class AboutUs extends Component {
         }
 
         return(
-            <div>{portraits}</div>
+            <div>
+                <div onClick={this.expandPortraits.bind(this)} className="expand-ribbon centered-content">
+                    <span className={"chevron " + this.state.chevronClass}></span>
+                </div>
+                <Collapse in={this.state.portraitsExpanded}>
+                    <div><div>{portraits}</div></div>
+                </Collapse>
+            </div>
         );
     }
 }

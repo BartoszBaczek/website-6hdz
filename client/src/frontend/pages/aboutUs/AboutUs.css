@@ -7,3 +7,27 @@
     align-content: center;
     justify-content: center;
 }
+
+.expand-ribbon {
+    height: 40px;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+.chevron {
+  display: inline-block;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  transition: 300ms ease all;
+}
+
+.chevron-top {
+    transform: rotate(-135deg);
+}
+
+.chevron-bottom {
+    transform: rotate(43deg);
+}
