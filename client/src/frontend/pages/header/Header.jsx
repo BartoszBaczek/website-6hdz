@@ -32,7 +32,7 @@ class Header extends Component {
                     speed={0.1}
                     maxScroll={565}
                     currentScroll={this.state.scrollOffset}
-                    top={-140}
+                    top={-200}
                     zIndex={5}
                     backgroundImage={"./../assets/img/parallax/layer1.png"}
                 />
