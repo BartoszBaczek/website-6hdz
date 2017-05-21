@@ -42,7 +42,7 @@ class App extends Component {
                     <News />
                 </Element>
                 <Element name="aboutUs" className="page-block">
-                    <h1 className="about-us-header">Nasz kadra</h1>
+                    <h1 className="about-us-header">O nas</h1>
                     <AboutUs />
                 </Element>
                 <Element name="partners" className="page-block">
