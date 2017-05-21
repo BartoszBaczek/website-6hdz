@@ -4,12 +4,17 @@ import dangerousHtml from './../../common/dangerousHtml';
 import './MiniNews.css';
 
 class MiniNews extends Component {
+
+    miniNewsClicked() {
+        this.props.miniNewsClicked(this.props.data);
+    }
+
     render() {
         let component;
 
         if (this.props.data) {
             let html = dangerousHtml.convert(this.props.data.miniContent)
-            component = <span dangerouslySetInnerHTML={html} />
+            component = <span dangerouslySetInnerHTML={html} onClick={this.miniNewsClicked.bind(this)}/>
         } else {
             component = <Loading />
         }
