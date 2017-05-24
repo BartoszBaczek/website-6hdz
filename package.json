@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "express server.js",
-    "client": "express start-client.js",
+    "server": "node server.js",
+    "client": "node start-client.js",
     "build": "cd client && npm run build"
   }
 }
